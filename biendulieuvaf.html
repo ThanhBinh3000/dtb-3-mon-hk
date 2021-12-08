@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>phuongtrinhnhapdiem</title>
+</head>
+<body>
+<script>
+   let inputvatly;
+   let inputhoahoc;
+   let inputsinhhoc;
+   inputvatly = prompt("Nhập điểm vật lý");
+   inputhoahoc = prompt("Nhập điểm hóa học");
+   inputsinhhoc = prompt("Nhập điểm sinh học");
+   let vatly = parseInt(inputvatly);
+   let hoahoc = parseInt(inputhoahoc);
+   let sinhhoc = parseInt(inputsinhhoc);
+   let DTB = (vatly+hoahoc+sinhhoc)/3 ;
+   document.write("DTB: " + DTB);
+</script>
+</body>
+</html>
